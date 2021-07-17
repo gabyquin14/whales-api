@@ -1,0 +1,32 @@
+{
+  "whales": [
+    {
+      "id": 0,
+      "whale_type": "Fin Whale",
+      "scientificName": "Balaenoptera physalus",
+      "status": "Endangered",
+      "population": "Between 50,000-90,000",
+      "length": "Depends from the region. Southern hemisphere whales are roughly 20m long, while Northern and Arctic fin whales reach up to 25m in length",
+      "weight": "48 tons (adult)",
+      "rage_deep": "200 to 250m",
+      "lifespan": "Ranges from 75 to 100 years",
+      "location": "Fin whales are typically found in deep, offshore waters of all major oceans, primarily in temperate to polar latitudes. They are less common in the tropics. They occur year-round in a wide range of locations, but the density of individuals in any one area changes seasonally",
+      "speed": "from 37 to 47 km/h",
+      "sexual_dimorphism": "Limited, both females and males can reach roughly the same size and weight as adults",
+      "typeof_feeder": "Fin whales are filter feeders, with between 350 and 400 baleen plates that are used to catch very small to medium-sized aquatic life suspended in the water",
+      "physicall_features": "They have long, lean bodies, have a brown-grey dorsal surface, deep white undersides, and a medium-sized white patch on their lower, right jaw. The base of the tail is raised, causing their back to have a distinctive ridge. The head is quite flat and has two blowholes and a single ridge extends from the tip of the snout to the beginning of the blowholes",
+      "reproduction": [
+        {
+          "season": "Breeding and calving occurs from November to January in the northern hemisphere and June to September in the southern hemisphere",
+          "breeding_interval": "Fin whales breed every 2 to 3 years",
+          "numberof_offspring": "One. If the female give birth to multiple offspring, they rarely survived",
+          "gestation period": "11 to 12 months",
+          "care_period": "Weaning period ranges from 6 to 7 months, then mother and offspring will travel to a polar feeding area where it learns to feed itself independent of its mother",
+          "sexual_maturity": "Females will reach sexual maturity at 7 years old on average, meanwhile, males will reach it at 6 years old"
+        }
+      ],
+      "Behavior": "Sociable. They often congregate in family groups of between 6 and 10 members. Occasionally fin whales form groups of nearly 250 individuals near feeding grounds or during migration periods",
+      "Communication": "Fin whales communicate through vocalizations, and produce low frequency sounds that range from 16 to 40 Hz, outside of the hearing range of humans. Single frequencies last between 1 and 2 minutes while patterned calling can last for up to 15 minutes. The patterned pulses may be repeated for many days. A study done about the sound frequencies of fin whales suggest that whales use counter-calling in order to get information about their surroundings"
+    }
+  ]
+}
