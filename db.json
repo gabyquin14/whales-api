@@ -1,32 +1,89 @@
 {
-  "whales": [
-    {
-      "id": 0,
-      "whale_type": "Fin Whale",
-      "scientificName": "Balaenoptera physalus",
-      "status": "Endangered",
-      "population": "Between 50,000-90,000",
-      "length": "Depends from the region. Southern hemisphere whales are roughly 20m long, while Northern and Arctic fin whales reach up to 25m in length",
-      "weight": "48 tons (adult)",
-      "rage_deep": "200 to 250m",
-      "lifespan": "Ranges from 75 to 100 years",
-      "location": "Fin whales are typically found in deep, offshore waters of all major oceans, primarily in temperate to polar latitudes. They are less common in the tropics. They occur year-round in a wide range of locations, but the density of individuals in any one area changes seasonally",
-      "speed": "from 37 to 47 km/h",
-      "sexual_dimorphism": "Limited, both females and males can reach roughly the same size and weight as adults",
-      "typeof_feeder": "Fin whales are filter feeders, with between 350 and 400 baleen plates that are used to catch very small to medium-sized aquatic life suspended in the water",
-      "physicall_features": "They have long, lean bodies, have a brown-grey dorsal surface, deep white undersides, and a medium-sized white patch on their lower, right jaw. The base of the tail is raised, causing their back to have a distinctive ridge. The head is quite flat and has two blowholes and a single ridge extends from the tip of the snout to the beginning of the blowholes",
-      "reproduction": [
+  "whales": {
+    "balaenopteridae_family": {
+      "definition": "All members of the family balaenopteridae, also called rorquals, have a series of longitudinal folds of skin running from below the mouth back to the navel (except the sei whale and common minke whale, which have shorter grooves). These furrows allow the mouth to expand immensely when feeding, 'permitting them to engorge great mouthfuls of food and water in a single gulp'",
+      "balaenoptera": [
         {
-          "season": "Breeding and calving occurs from November to January in the northern hemisphere and June to September in the southern hemisphere",
-          "breeding_interval": "Fin whales breed every 2 to 3 years",
-          "numberof_offspring": "One. If the female give birth to multiple offspring, they rarely survived",
-          "gestation period": "11 to 12 months",
-          "care_period": "Weaning period ranges from 6 to 7 months, then mother and offspring will travel to a polar feeding area where it learns to feed itself independent of its mother",
-          "sexual_maturity": "Females will reach sexual maturity at 7 years old on average, meanwhile, males will reach it at 6 years old"
+          "id": 0,
+          "whale_type": "Fin Whale",
+          "scientificName": "Balaenoptera physalus",
+          "status": "Endangered",
+          "population": "Between 50,000-90,000",
+          "length": "Depends from the region. Southern hemisphere whales are roughly 20m long, while Northern and Arctic fin whales reach up to 25m in length",
+          "weight": "48 tons (adult)",
+          "dive_depth": "Up to 200 to 250m and can stay underwater for nearly 15 minutes.",
+          "lifespan": "Ranges from 75 to 100 years",
+          "location": "Fin whales are typically found in deep, offshore waters of all major oceans, primarily in temperate to polar latitudes. They are less common in the tropics. They occur year-round in a wide range of locations, but the density of individuals in any one area changes seasonally",
+          "speed": "From 37 to 47 km/h",
+          "sexual_dimorphism": "Limited, both females and males can reach roughly the same size and weight as adults",
+          "typeof_feeder": "Fin whales primarily feed on plankton-sized animals including crustaceans, fish, and squid. As filter feeders they passively consume food by filtering prey out of the water that they swim through. Fin whales occasionally swim around schools of fish to condense the school so that they increase their catch per dive",
+          "physicall_features": "They have long, lean bodies, have a brown-grey dorsal surface, deep white undersides, and a and asymmetrical head coloration: the right lower jaw being white and the left gray. The base of the tail is raised, causing their back to have a distinctive ridge. The head is quite flat and has two blowholes and a single ridge extends from the tip of the snout to the beginning of the blowholes",
+          "reproduction": {
+            "season": "Breeding and calving occurs from November to January in the northern hemisphere and June to September in the southern hemisphere",
+            "breeding_interval": "Fin whales breed every 2 to 3 years",
+            "numberof_offspring": "One. If the female give birth to multiple offspring, they rarely survived",
+            "gestation period": "11 to 12 months",
+            "care_period": "Weaning period ranges from 6 to 7 months, then both, mother and offspring, will travel to a polar feeding area where it learns to feed itself independent of its mother",
+            "sexual_maturity": "Females will reach sexual maturity at 7 years old on average, meanwhile, males will reach it at 6 years old"
+          },
+          "Behavior": "Sociable. They often congregate in family groups of between 6 and 10 members. Occasionally fin whales form groups of nearly 250 individuals near feeding grounds or during migration periods",
+          "Communication": "Fin whales communicate through vocalizations, and produce low frequency sounds that range from 16 to 40 Hz, outside of the hearing range of humans. Single frequencies last between 1 and 2 minutes while patterned calling can last for up to 15 minutes. The patterned pulses may be repeated for many days. A study done about the sound frequencies of fin whales suggest that whales use counter-calling in order to get information about their surroundings"
+        },
+        {
+          "id": 1,
+          "whale_type": "Sei Whale",
+          "scientificName": "Balaenoptera borealis",
+          "status": "Endangered",
+          "population": "Between 30,000 to 80,000",
+          "length": "Depends from the region. Southern hemisphere whales are roughly 20m long, while Northern and Arctic fin whales reach up to 25m in length",
+          "weight": "48 tons (adult)",
+          "dive_depth": "From 250 to 300 m and stay submerged only five to ten minutes at a time",
+          "lifespan": "Ranges from 60 to 70 years",
+          "location": "Sei whales are found in all oceans and adjoining seas, except polar and tropical regions. These animals occupy temperate and subpolar regions in the summer but migrate to sub-tropical waters during the winter. They can be found far from shore in submarine canyon areas",
+          "speed": "Up to 50 km/h",
+          "sexual_dimorphism": "Females are considerably larger than males",
+          "typeof_feeder": "The Sei whale obtains food by skimming through the water and catching prey in its baleen plates. These whales feed near the surface of the ocean, swimming on their sides through swarms of prey. An average Sei whale eats about 900 kilograms of copepods, amphipods, euphausiids and small fish every day",
+          "physicall_features": "Sei whales are essencially gray. Some of the most distinctive features of this whales are the fine bristles of their baleen (about 0.1mm in diameter at the base), and the relative shortness of its ventral grooves, which extend back only to a point about midway between the flippers and the umbilicus",
+          "reproduction": {
+            "season": "The mating season covers about 5 months during the winter, from november to march",
+            "breeding_interval": "For North Atlantic region the average calving interval is at least 2 years, while for the North Pacific region the average is 3 years",
+            "numberof_offspring": "One. If the female give birth to multiple offspring, they rarely survived",
+            "gestation period": "Depends from the region. North Atlantic Sei whales gestation ranges from 10 ¾ to 12 months, while North Pacific Sei whales’ gestation period can last up to 13 months",
+            "care_period": "North Atlantic Sei whale calves are probably nursed for six to nine months, so weaning occurs on the feeding grounds in summer or autumn. For North Pacific Sei whales, lactation continues for at least nine months",
+            "sexual_maturity": "Both, North Atlanctic and Pacific Sei whales are thought to reach sexual maturity at 8-10 years"
+          },
+          "Behavior": "Little is known about the actual social system of these animals. Groups of two to five individuals are typically observed, but sometimes thousands may gather if food is abundant. However, these large aggregations may not be dependent on food supply alone, as they often occur during times of migration",
+          "Communication": "“Limited reports of sei whale calls indicate that the whales make low and mid-frequency vocalizations including pulse trains (peak energy at 3 kHz), broadband “growl” and “whoosh” sounds (100-600 Hz, 1.5 s in duration), tonal and upsweep calls (200-600 Hz, 1-3 s in duration), and downsweep calls (100-44 Hz, lasting 1.0 s, and 39-21 Hz lasting 1.3 s). Most recently, downsweep calls (82.3 Hz to 34 Hz) were recorded in the North Atlantic. Scientists believe this is a “contact” call, as sei whales are traditionally observed alone or in small groups of 2-5 whales. Contact over long distances via low frequency sounds may allow dispersed animals to coordinate activities such as feeding or breeding"
         }
       ],
-      "Behavior": "Sociable. They often congregate in family groups of between 6 and 10 members. Occasionally fin whales form groups of nearly 250 individuals near feeding grounds or during migration periods",
-      "Communication": "Fin whales communicate through vocalizations, and produce low frequency sounds that range from 16 to 40 Hz, outside of the hearing range of humans. Single frequencies last between 1 and 2 minutes while patterned calling can last for up to 15 minutes. The patterned pulses may be repeated for many days. A study done about the sound frequencies of fin whales suggest that whales use counter-calling in order to get information about their surroundings"
+      "megaptera": [
+        {
+          "id": 0,
+          "whale_type": "Humpback Whale",
+          "scientificName": "Megaptera novaeangliae",
+          "status": "Endangered",
+          "population": "Nearly 80,000",
+          "length": "Depends on the sex. Females can range in length from 15 to 18m, while males can measure from 13 to 15m",
+          "weight": "Between 30 to 50 tons (adult)",
+          "dive_depth": "Humpbacks dive to about 200 m. They can stay underwater for 30 minutes, but on average their dives only last about 15 minutes",
+          "lifespan": "Ranges from 45 to 50 years",
+          "location": "The habitat of humpback whales consists of polar to tropical waters, including the waters of the Artic, Atlantic, and Pacific Oceans, as well as the waters surrounding Antartica and the Bering Strait. During migration, they are found in coastal and deep oceanic waters",
+          "speed": "They move at about 5 to 15 km per hour. During feeding, they’ll slow to 2 to 5.5 km/h. On migration season, they can speed up to about 27 km/h",
+          "sexual_dimorphism": "Humpback females are larger than males",
+          "typeof_feeder": "They are highly mobile and opportunistic. Humpbacks feed upon plankton, the plant and animal life at the surface of the ocean's water, or upon fish in large patches or schools. Humpbacks have five main feeding behaviors: ring of foam, lunging, bubble behavior, tail slashing, flick-feeding, and inside loop behavior",
+          "physicall_features": "The most distictive external features of humpbacks are the flipper size and form (can be almost a third of the body length), fluke coloration and shape, and dorsal fin shape. They are largely white and have knobs on the leading edge. The butterfly-shaped tail flukes bear individually distinctive patterns of gray and white, and have a scalloped trailing edge. The dorsal fin can be a small triangle or sharply falcate, and often has a stepped or humped shape.There are 14 to 35 ventral pleats or grooves. Humpbacks have the greatest relative blubber thickness for their size of any rorqual",
+          "reproduction": {
+            "season": "Breeding and calving occurs from November to January in the northern hemisphere and June to September in the southern hemisphere",
+            "breeding_interval": "Females of this species typically produce offspring every two years, and can produce yound twice in three years",
+            "numberof_offspring": "One. If the female give birth to multiple offspring, they rarely survived",
+            "gestation period": "11 to 12 months",
+            "care_period": "Weaning period lasts 5 months, then the mother shows the calf how to become independent",
+            "sexual_maturity": "Female and male Humpback whales reach sexual maturity between 4 to 5 years"
+          },
+          "Behavior": "Humpback Whales are generally loners; coming together occasionally to feed or mate. On the other hand, Humpbacks are regarded as being quite friendly towards other types of marine life, having been spotted socializing with other kinds of whales and dolphins",
+          "Communication": "Both male and female humpback whales vocalize, but only males produce the long, loud, complex 'song' for which the species is famous. Each song consists of several sounds in a low register, varying in amplitude and frequency and typically lasting from 10 to 20 minutes.Whales within a population sing a single song. All North Atlantic humpbacks sing the same song, while those of the North Pacific sing a different song. Each population's song changes slowly over a period of years without repeating"
+        }
+      ]
     }
-  ]
+  }
 }
